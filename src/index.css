@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.4vw;
+  width: 100%;
+  background-color: #ede9de;
+}
+
+.product-listing {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.product-listing .product-list-item {
+  padding: 30px 30px;
+  width: 14vw;
+}
+
+ul.top-menu {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.8vw;
+  position: absolute;
+  right: 50px;
+  margin: 0;
+  margin-top: -10px;
+}
+
+ul.top-menu li {
+  display: inline-block;
+}
+
+ul.top-menu li:before {
+  content: " ";
+  margin: 0 4px;
+}
+
+ul.top-menu li:nth-child(1):before {
+  content: "";
+  margin: 0;
+}
+
+.Nav_link {
+  font-family: "PT Sans Narrow", sans-serif !important;
+  font-size: 1.8vw !important;
+}
+.Nav_link:link {
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  text-decoration: none;
+}
+.Nav_link:visited {
+  color: #fff;
+}
+.Nav_link:hover {
+  color: #811d2b;
+}
